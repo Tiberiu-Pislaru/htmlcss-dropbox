@@ -8,6 +8,8 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+
+
 .row{
     position:relative;
 }
@@ -60,7 +62,65 @@ img{
     display: inline-block;
 }
 
+.box_in_row{
+    width: 33.3333%;
+    /* height: 100px;
+    background-color:coral; */
+    height: 800px;
+    /* height: 600px; */
+    font-size:14px;
+}
+.pr{
+    padding-right: 15px;
+}
 
+.pl{
+    padding-left: 15px;
+}
+
+.pl_pr{
+    padding: 0 15px;
+}
+
+.box{
+    border: 1px solid #e9e9e9;
+    padding: 0 15px;
+    height: 100%;
+}
+
+.description{
+    margin:10px 0;
+}
+
+.b-box{
+    margin: 30px 0;
+    text-align: center;
+}
+
+.b-box button{
+    width:100%;
+}
+
+.lista{
+    margin-top:50px;
+}
+
+.lista h4{
+    text-align: center;
+}
+
+.lista ul{
+    list-style-type: none;
+    /* padding-top: 20px; */
+}
+
+.lista ul li{
+    margin-top: 15px;
+}
+
+.pt{
+    padding-top: 10px;
+}
 /* <---------------------------------------------------------------> */
 
 
@@ -110,4 +170,84 @@ img{
     padding-left: 20px;
     position: absolute;
     right: 0;
+}
+
+.container_main{
+    width: 900px;
+    /* height: 800px; */
+    /* background-color:burlywood; */
+    margin: 0 auto;
+}
+
+.piano_business{
+    margin-top:130px;
+}
+
+form{
+    margin: 20px 0;
+}
+
+form span{
+    margin-right: 10px;
+}
+
+.alone::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f007";
+    color: #000;
+    font-size:20px;
+}
+
+.indirizzato{
+    padding: 10px 0;
+    border-bottom: 1px solid #e9e9e9;
+    text-align: center;
+}
+
+.team::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f1ad";
+    color: #000;
+    font-size:20px;
+}
+
+.user_wt::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f007";
+    color: #000;
+    font-size:20px;
+}
+
+.user_plus::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f234";
+    color: #000;
+    font-size:20px;
+}
+
+.storage::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f07b";
+    color: #000;
+    font-size:20px;
+}
+.file::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f303";
+    color: #000;
+    font-size:20px;
+}
+
+.lista ul li::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f00c";
+    color: #0063ff;
+    font-size:20px;
 }
