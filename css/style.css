@@ -271,3 +271,15 @@ form span{
     padding-left:0;
     padding-right:0;
 }
+
+.contenuto_img{
+    width:55%
+}
+
+.text_partner{
+    width: 45%;
+}
+
+.testo_lungo{
+    margin:20px 0;
+}
