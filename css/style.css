@@ -8,6 +8,10 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+.row{
+    position:relative;
+}
+
 .row::after{
     content: '';
     display: table;
@@ -34,29 +38,31 @@ img{
     list-style-type:none;
 }
 
-.logo{
-    vertical-align: middle;
-}
-
-.buttons button{
-    border-width: 0px;
-    padding: 5px 20px;
-    background-color: #0063ff;
-    color: #fff;
-}
-
-
-
-.logo, .menu, .buttons{
-    display: inline-block;
-}
-
 .menu ul li{
     display: inline-block;
     color: black;
     /* font-weight: bold; */
     font-size: 15px;
 }
+
+.logo{
+    vertical-align: middle;
+}
+
+.button button{
+    border-width: 0px;
+    padding: 5px 20px;
+    background-color: #0063ff;
+    color: #fff;
+}
+
+.display{
+    display: inline-block;
+}
+
+
+/* <---------------------------------------------------------------> */
+
 
 .menu_left ul li{
     padding-left: 20px;
@@ -66,3 +72,42 @@ img{
     padding-right: 20px;
 }
 
+.jumbotron{
+    background-color: #add1ea;
+    padding-top:30px;
+}
+
+.jumbotron_content{
+    width: 1000px;    
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.jumbotron_content h1{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.text_row_jumbotron{
+    width:35%;
+}
+
+.text_row_jumbotron .button{
+    margin-top: 20px;
+    margin-bottom:10px;
+}
+
+.down_arrow::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f063";
+    color: #000;
+    font-size:30px;
+}
+
+.img_row_jumbotron{
+    width: 60%;
+    padding-left: 20px;
+    position: absolute;
+    right: 0;
+}
