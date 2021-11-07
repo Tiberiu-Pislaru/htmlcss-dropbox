@@ -79,7 +79,7 @@ img{
 }
 
 .pl_pr{
-    padding: 0 15px;
+    padding: 0 10px;
 }
 
 .box{
@@ -282,4 +282,16 @@ form span{
 
 .testo_lungo{
     margin:20px 0;
+}
+
+.content_drow{
+    width: 33.333%;
+}
+
+.section_drow{
+    margin:60px 0;
+}
+
+.section_drow .row .content_drow{
+    margin-top: 40px;
 }
