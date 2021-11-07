@@ -295,3 +295,20 @@ form span{
 .section_drow .row .content_drow{
     margin-top: 40px;
 }
+
+main{
+    padding-bottom: 30px;
+}
+
+.numero_clienti div{
+    width: 50%;
+}
+
+.numero_clienti div h2{
+    margin: 20px 0;
+}
+
+a{
+    text-decoration: none;
+    font-weight:bold;
+}
